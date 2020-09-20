@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+		<style>
+			img .my {
+				height: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+					<img class="my" src="img/2/git.jpg" alt="">
+          <h3>GIT</h3>
+        </section>
+        <section>
+          <h3>Что это?</h3>
+          <ul>
+            <li>Система управления версиями</li>
+            <li>От создателя Linux (Линус Торвальдс)</li>
+            <li>Необходима для разработки</li>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <h3>Версии и ветвление</h3>
+            <img src="img/2/branches.png" alt="">
+          </section>
+          <section>
+            <h3>Модели ветвления</h3>
+            <img src="img/2/git_flow.png" alt="">
+          </section>
+        </section>
+        <section>
+          <h3>Основные команды</h3>
+          <a href="files/git_help.pdf">
+            <img src="img/2/cheat-sheet.jpg" alt="">
+          </a>
+          <a href="files/git_help.pdf">git_help.pdf</a>
+        </section>
+        <section>
+          <section>
+            <h3>GUI для GIT</h3>
+            <ul>
+              <li><a href="https://desktop.github.com/">GitHub Desctop</a></li>
+              <li><a href="https://www.gitkraken.com/">Git Kraken</a></li>
+              <li><a href="https://www.sourcetreeapp.com/">SourceTree</a></li>
+            </ul>
+
+          </section>
+          <section>
+            <img src="img/2/GithubDesktop.png" alt="">
+            <h3>GitHub Desctop</h3>
+          </section>
+          <section>
+            <img src="img/2/GitKraken.jpeg" alt="">
+            <h3>GitKraken</h3>
+          </section>
+          <section>
+            <img src="img/2/Sourcetree.png" alt="">
+            <h3>SourceTree</h3>
+          </section>
+
+        </section>
+
+        <section>
+          <h3>Практика</h3>
+          <ul>
+            <li><a href="https://learngitbranching.js.org/?locale=ru_RU">В игровой форме</a></li>
+            <li><a href="https://githowto.com/ru/setup">Хорошее текстовое руководство</a></li>
+          </ul>
+        </section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				controls: true,
+				progress: true,
+				center: true,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealSearch, RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

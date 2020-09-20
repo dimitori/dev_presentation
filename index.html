@@ -87,7 +87,22 @@
 				</section>
 
                 <section>
-					<h2 data-id="code-title">Терминал - это командная строка</h2>
+					<h2>Терминал - это командная строка</h2>
+				</section>
+
+				<section data-auto-animate>
+					<h2 data-id="code-title">Примеры команд</h2>
+					<pre data-id="code-animation"><code class="bash" data-trim data-line-numbers>
+
+                        ls
+						mkdir
+						ls -al
+						ls | grep test
+						Bc <<< “2*2”
+						touch /tmp/foo || echo fail
+						yum -y install apache2 && service apache2 start
+						ps ax | grep kworker > /tmp/kworker.txt
+					</code></pre>
 				</section>
 
 			</div>
